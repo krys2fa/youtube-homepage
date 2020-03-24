@@ -1,5 +1,9 @@
 /* Reseting our page */
 
+:root {
+  --primary-color: #777;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +30,7 @@
 }
 
 #header-left-section i {
-  color: #777;
+  color: var(--primary-color);
   font-size: 1.2rem;
 }
 
@@ -63,4 +67,24 @@
 #header-middle-section button:hover {
   background: #eee;
   cursor: pointer;
+}
+
+#header-right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#header-right-section img {
+  display: inline-block;
+  width: 50px;
+  margin: 0 1.5rem;
+  border-radius: 50%;
+}
+
+#header-right-section i {
+  margin: 0 1.5rem;
+  color: var(--primary-color);
+  font-size: 1.2rem;
 }
