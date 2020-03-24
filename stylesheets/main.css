@@ -1,90 +1,113 @@
 /* Reseting our page */
 
 :root {
-  --primary-color: #777;
+    --primary-color: #777;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #main-header {
-  width: 100%;
-  margin: 0.8rem 1.2rem;
-  display: flex;
-  height: 60px;
-  padding: 16px;
-
-  align-items: center;
-  justify-content: space-between;
+    width: 100%;
+    margin: 0.8rem 1.2rem;
+    display: flex;
+    height: 60px;
+    padding: 16px;
+    align-items: center;
+    justify-content: space-between;
 }
+
 
 /* Header Section */
 
 #header-left-section {
-  display: flex;
-  height: 100%;
-  align-items: center;
+    display: flex;
+    height: 100%;
+    align-items: center;
 }
 
 #header-left-section i {
-  color: var(--primary-color);
-  font-size: 1.2rem;
+    color: var(--primary-color);
+    font-size: 1.2rem;
 }
 
 #header-left-section img {
-  display: inline-block;
-  width: 100px;
-  height: 60px;
-  margin-left: 1.5rem;
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    margin-left: 1.5rem;
 }
 
 #header-middle-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #header-middle-section input[type="text"] {
-  width: 500px;
-  padding: 0.6rem 1.2rem;
-  height: 20px;
+    width: 500px;
+    padding: 0.6rem 1.2rem;
+    height: 20px;
 }
 
 #header-middle-section button {
-  margin-left: -54px;
-  height: 26px;
-  width: 50px;
-  display: inline-block;
-  border: 0;
-  border-left: 1px solid #999;
-  border-right: 1px solid #999;
-  background: #f4f4f4;
+    margin-left: -54px;
+    height: 26px;
+    width: 50px;
+    display: inline-block;
+    border: 0;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    background: #f4f4f4;
 }
 
 #header-middle-section button:hover {
-  background: #eee;
-  cursor: pointer;
+    background: #eee;
+    cursor: pointer;
 }
 
 #header-right-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
 }
 
 #header-right-section img {
-  display: inline-block;
-  width: 50px;
-  margin: 0 1.5rem;
-  border-radius: 50%;
+    display: inline-block;
+    width: 50px;
+    margin: 0 1.5rem;
+    border-radius: 50%;
 }
 
 #header-right-section i {
-  margin: 0 1.5rem;
-  color: var(--primary-color);
-  font-size: 1.2rem;
+    margin: 0 1.5rem;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+
+/* Main section of the page */
+
+.container {
+    width: 96%;
+    margin: 2rem auto;
+}
+
+#videos {
+    display: flex;
+    justify-content: space-between;
+    width: 96%
+}
+
+#videos #left-section {
+    width: 75%;
+    margin-right: 2rem;
+}
+
+#videos #right-section {
+    width: 25%;
 }
