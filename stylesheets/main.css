@@ -17,6 +17,8 @@
   justify-content: space-between;
 }
 
+/* Header Section */
+
 #header-left-section {
   display: flex;
   height: 100%;
@@ -33,4 +35,27 @@
   width: 100px;
   height: 60px;
   margin-left: 1.5rem;
+}
+
+#header-middle-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header-middle-section input[type="text"] {
+  width: 500px;
+  padding: 0.6rem 1.2rem;
+  height: 20px;
+}
+
+#header-middle-section button {
+  margin-left: -54px;
+  height: 26px;
+  width: 50px;
+  display: inline-block;
+  border: 0;
+  border-left: 1px solid #999;
+  border-right: 1px solid #999;
+  background: #f4f4f4;
 }
