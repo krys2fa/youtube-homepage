@@ -5,3 +5,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+#main-header {
+  width: 100%;
+  margin: 0.8rem 1.2rem;
+  display: flex;
+  height: 60px;
+  padding: 16px;
+
+  align-items: center;
+  justify-content: space-between;
+}
