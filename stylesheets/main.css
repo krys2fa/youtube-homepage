@@ -16,3 +16,21 @@
   align-items: center;
   justify-content: space-between;
 }
+
+#header-left-section {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+#header-left-section i {
+  color: #777;
+  font-size: 1.2rem;
+}
+
+#header-left-section img {
+  display: inline-block;
+  width: 100px;
+  height: 60px;
+  margin-left: 1.5rem;
+}
