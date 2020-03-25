@@ -118,10 +118,6 @@ body {
   margin-right: 2rem;
 }
 
-#videos #right-section {
-  width: 25%;
-}
-
 /* Main section of the page: Main video of the left section */
 
 #videos #main-video {
@@ -202,8 +198,7 @@ body {
   align-items: center;
 }
 
-#videos #left-section #subscribe #subscribe-heading #left-subscribe-heading
-  img {
+#videos #left-section #subscribe #subscribe-heading #left-subscribe-heading img {
   display: inline-block;
   width: 50px;
   margin-right: 1.2rem;
@@ -305,8 +300,7 @@ body {
   font-size: 0.9rem;
 }
 
-#videos #left-section .comments #comment-heading #bottom-comment-heading
-  input:focus {
+#videos #left-section .comments #comment-heading #bottom-comment-heading input:focus {
   outline: none;
   border-bottom: 1px solid #000;
 }
@@ -359,6 +353,7 @@ body {
 #videos #right-section {
   display: flex;
   flex-direction: column;
+  width: 25%;
 }
 
 #videos #right-section #up-next {
@@ -454,8 +449,7 @@ body {
   margin-right: 0.8rem;
 }
 
-#videos #right-section #related-videos .related-video .related-video-image
-  span {
+#videos #right-section #related-videos .related-video .related-video-image span {
   position: absolute;
   color: #fff;
   bottom: 8px;
