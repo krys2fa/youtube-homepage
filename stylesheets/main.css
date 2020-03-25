@@ -397,6 +397,11 @@
   margin: 0.8rem 0;
 }
 
+#videos #right-section #up-next a {
+  text-decoration: none;
+  color: #000;
+}
+
 #videos #right-section #up-next-heading {
   display: flex;
   justify-content: space-between;
@@ -422,8 +427,9 @@
 
 #videos #right-section #up-next {
   display: flex;
-  padding: 0.8rem 1.2rem;
+  padding: 0.8rem 0;
   margin: 0.8rem 0;
+  border-bottom: 1px solid #888;
 }
 
 #videos #right-section #up-next #up-next-video {
@@ -441,4 +447,65 @@
   font-weight: 600;
   background: #000;
   padding: 0.3rem 0.4rem;
+}
+
+#videos #right-section #up-next #up-next-text h4 {
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+}
+
+#videos #right-section #up-next #up-next-text p {
+  font-size: 0.8rem;
+  color: var(--primary-color);
+}
+
+#videos #right-section #related-videos {
+  display: flex;
+  flex-direction: column;
+}
+
+#videos #right-section #related-videos #related-video-item {
+  display: flex;
+}
+
+#videos #right-section #related-videos #related-video .related-video-image {
+  position: relative;
+}
+
+#videos #right-section #related-videos #related-video .related-video-image img {
+  display: inline-block;
+  width: 226px;
+  height: 100px;
+  margin-right: 0.8rem;
+}
+
+#videos
+  #right-section
+  #related-videos
+  #related-video
+  .related-video-image
+  span {
+  position: absolute;
+  color: #fff;
+  bottom: 8px;
+  right: 16px;
+  font-weight: 600;
+  background: #000;
+  padding: 0.3rem 0.4rem;
+}
+
+#videos #right-section #related-videos #related-video-text h4 {
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+}
+
+#videos #right-section #related-videos a {
+  text-decoration: none;
+  color: #000;
+}
+
+#videos #right-section #related-videos #related-video-text p {
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+  color: var(--primary-color);
 }
