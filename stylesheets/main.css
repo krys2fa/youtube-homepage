@@ -159,13 +159,7 @@ body {
   font-weight: 600px;
 }
 
-#videos
-  #left-section
-  #main-video
-  footer
-  #videos-footer-lower
-  #video-views
-  span {
+#videos #left-section #main-video footer #videos-footer-lower #video-views span {
   margin-right: 0.2rem;
 }
 
@@ -174,13 +168,7 @@ body {
   justify-content: space-between;
 }
 
-#videos
-  #left-section
-  #main-video
-  footer
-  #videos-footer-lower
-  #social-icons
-  .likeDislike {
+#videos #left-section #main-video footer #videos-footer-lower #social-icons .likeDislike {
   border-bottom: 2px solid #444;
   padding-bottom: 14px;
 }
@@ -189,13 +177,7 @@ body {
   margin-right: 0.4rem;
 }
 
-#videos
-  #left-section
-  #main-video
-  footer
-  #videos-footer-lower
-  #social-icons
-  span {
+#videos #left-section #main-video footer #videos-footer-lower #social-icons span {
   margin-right: 0.8rem;
 }
 
@@ -220,11 +202,7 @@ body {
   align-items: center;
 }
 
-#videos
-  #left-section
-  #subscribe
-  #subscribe-heading
-  #left-subscribe-heading
+#videos #left-section #subscribe #subscribe-heading #left-subscribe-heading
   img {
   display: inline-block;
   width: 50px;
@@ -232,25 +210,13 @@ body {
   border-radius: 50%;
 }
 
-#videos
-  #left-section
-  #subscribe
-  #subscribe-heading
-  #left-subscribe-heading
-  #left-subscribe-heading-text
-  h4 {
+#videos #left-section #subscribe #subscribe-heading #left-subscribe-heading #left-subscribe-heading-text h4 {
   font-size: 0.9rem;
   font-weight: 600;
   color: #111;
 }
 
-#videos
-  #left-section
-  #subscribe
-  #subscribe-heading
-  #left-subscribe-heading
-  #left-subscribe-heading-text
-  span {
+#videos #left-section #subscribe #subscribe-heading #left-subscribe-heading #left-subscribe-heading-text span {
   color: var(--primary-color);
   font-size: 0.8rem;
   font-weight: 500;
@@ -339,11 +305,7 @@ body {
   font-size: 0.9rem;
 }
 
-#videos
-  #left-section
-  .comments
-  #comment-heading
-  #bottom-comment-heading
+#videos #left-section .comments #comment-heading #bottom-comment-heading
   input:focus {
   outline: none;
   border-bottom: 1px solid #000;
@@ -397,8 +359,6 @@ body {
 #videos #right-section {
   display: flex;
   flex-direction: column;
-  /* padding: 0.8rem 0; */
-  /* margin: 0.8rem 0; */
 }
 
 #videos #right-section #up-next {
@@ -494,11 +454,7 @@ body {
   margin-right: 0.8rem;
 }
 
-#videos
-  #right-section
-  #related-videos
-  .related-video
-  .related-video-image
+#videos #right-section #related-videos .related-video .related-video-image
   span {
   position: absolute;
   color: #fff;
