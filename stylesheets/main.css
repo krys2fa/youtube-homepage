@@ -141,6 +141,10 @@ body {
   margin-top: 1.2rem;
 }
 
+#videos #right-section #up-next-heading #autoplay h4 {
+  margin-right: 0.8rem;
+}
+
 #videos #left-section #main-video footer #videos-footer-upper h4 {
   font-size: 1.2rem;
   font-weight: 500;
@@ -165,6 +169,11 @@ body {
   padding-bottom: 14px;
 }
 
+#videos #left-section .comments .comment .comment-body span i {
+  margin-right: 0.6rem;
+  color: var(--primary-color);
+}
+
 #videos #left-section #main-video footer #videos-footer-lower #social-icons i {
   margin-right: 0.4rem;
 }
@@ -181,16 +190,28 @@ body {
   flex-direction: column;
 }
 
+#videos #left-section .comments .comment .comment-body p {
+  padding: 1rem 0;
+}
+
 #videos #left-section .comments #comment-heading #top-comment-heading {
   display: flex;
   align-items: center;
   padding: 0.8rem 0;
 }
 
+#videos #left-section #subscribe #subscribe-body p {
+  margin-top: 1.6rem;
+}
+
 #videos #left-section .comments #comment-heading #top-comment-heading p {
   margin-right: 1.6rem;
   font-size: 1rem;
   font-weight: 500;
+}
+
+#videos #left-section .comments .comment .comment-body span {
+  margin-right: 0.8rem;
 }
 
 #videos #left-section .comments #comment-heading #top-comment-heading span {
@@ -262,19 +283,6 @@ body {
   color: var(--primary-color);
 }
 
-#videos #left-section .comments .comment .comment-body p {
-  padding: 1rem 0;
-}
-
-#videos #left-section .comments .comment .comment-body span {
-  margin-right: 0.8rem;
-}
-
-#videos #left-section .comments .comment .comment-body span i {
-  margin-right: 0.6rem;
-  color: var(--primary-color);
-}
-
 /* Main section of the page: Subscribe Section of the left section */
 
 #videos #left-section #subscribe {
@@ -336,8 +344,9 @@ body {
   flex-direction: column;
 }
 
-#videos #left-section #subscribe #subscribe-body p {
-  margin-top: 1.6rem;
+#videos #right-section #up-next a {
+  text-decoration: none;
+  color: #000;
 }
 
 #videos #left-section #subscribe #subscribe-body a {
@@ -363,11 +372,6 @@ body {
   border-bottom: 1px solid #888;
 }
 
-#videos #right-section #up-next a {
-  text-decoration: none;
-  color: #000;
-}
-
 #videos #right-section #up-next-heading {
   display: flex;
   justify-content: space-between;
@@ -380,10 +384,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-#videos #right-section #up-next-heading #autoplay h4 {
-  margin-right: 0.8rem;
 }
 
 #videos #right-section #up-next-heading #autoplay i {
@@ -416,6 +416,12 @@ body {
 #videos #right-section #up-next #up-next-text h4 {
   font-size: 0.8rem;
   margin-bottom: 6px;
+}
+
+#videos #right-section #related-videos .related-video-text p {
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+  color: var(--primary-color);
 }
 
 #videos #right-section #up-next #up-next-text p {
@@ -462,10 +468,4 @@ body {
 #videos #right-section #related-videos a {
   text-decoration: none;
   color: #000;
-}
-
-#videos #right-section #related-videos .related-video-text p {
-  font-size: 0.8rem;
-  margin-bottom: 8px;
-  color: var(--primary-color);
 }
