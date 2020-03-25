@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 /* Reseting our page */
 
 :root {
@@ -8,6 +9,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 #main-header {
