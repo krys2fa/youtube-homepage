@@ -433,17 +433,21 @@
 }
 
 #videos #right-section #up-next #up-next-video {
-  background: url("../images/car-1.jpg") no-repeat center center/cover;
-  width: 100%;
-  margin-right: 0.8rem;
   position: relative;
+}
+
+#videos #right-section #up-next #up-next-video img {
+  display: inline-block;
+  width: 180px;
+  height: 100px;
+  margin-right: 0.8rem;
 }
 
 #videos #right-section #up-next #up-next-video span {
   position: absolute;
   color: #fff;
-  bottom: 2px;
-  right: 3px;
+  bottom: 8px;
+  right: 16px;
   font-weight: 600;
   background: #000;
   padding: 0.3rem 0.4rem;
@@ -466,6 +470,7 @@
 
 #videos #right-section #related-videos #related-video-item {
   display: flex;
+  margin-bottom: 6px;
 }
 
 #videos #right-section #related-videos #related-video .related-video-image {
@@ -474,7 +479,7 @@
 
 #videos #right-section #related-videos #related-video .related-video-image img {
   display: inline-block;
-  width: 226px;
+  width: 180px;
   height: 100px;
   margin-right: 0.8rem;
 }
