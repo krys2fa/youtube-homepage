@@ -177,79 +177,6 @@ body {
   margin-right: 0.8rem;
 }
 
-/* Main section of the page: Subscribe Section of the left section */
-
-#videos #left-section #subscribe {
-  display: flex;
-  flex-direction: column;
-  padding: 0.8rem 0;
-  margin: 0.8rem 0;
-  border-bottom: 1px solid var(--primary-color);
-}
-
-#videos #left-section #subscribe #subscribe-heading {
-  display: flex;
-  justify-content: space-between;
-}
-
-#videos #left-section #subscribe #subscribe-heading #left-subscribe-heading {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#videos #left-section #subscribe #subscribe-heading #left-subscribe-heading img {
-  display: inline-block;
-  width: 50px;
-  margin-right: 1.2rem;
-  border-radius: 50%;
-}
-
-#videos #left-section #subscribe #subscribe-heading #left-subscribe-heading #left-subscribe-heading-text h4 {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #111;
-}
-
-#videos #left-section #subscribe #subscribe-heading #left-subscribe-heading #left-subscribe-heading-text span {
-  color: var(--primary-color);
-  font-size: 0.8rem;
-  font-weight: 500;
-}
-
-#videos #left-section #subscribe #subscribe-heading #btn-subscribe {
-  padding: 0.4rem 1.4rem;
-  background: red;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 1rem;
-  border: none;
-  border-radius: 2px;
-  width: 130px;
-  height: 50px;
-  display: inline-block;
-  cursor: pointer;
-}
-
-#videos #left-section #subscribe #subscribe-body {
-  margin-left: 63px;
-  display: flex;
-  flex-direction: column;
-}
-
-#videos #left-section #subscribe #subscribe-body p {
-  margin-top: 1.6rem;
-}
-
-#videos #left-section #subscribe #subscribe-body a {
-  margin-top: 0.8rem;
-  color: var(--primary-color);
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 0.9rem;
-}
-
 /* Main section of the page: Comment Section of the left section */
 
 #videos #left-section .comments {
@@ -347,6 +274,81 @@ body {
   margin-right: 0.6rem;
   color: var(--primary-color);
 }
+
+
+/* Main section of the page: Subscribe Section of the left section */
+
+#videos #left-section #subscribe {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem 0;
+  margin: 0.8rem 0;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+#videos #left-section #subscribe #subscribe-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+#videos #left-section #subscribe #subscribe-heading #left-subscribe-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#videos #left-section #subscribe #subscribe-heading #left-subscribe-heading img {
+  display: inline-block;
+  width: 50px;
+  margin-right: 1.2rem;
+  border-radius: 50%;
+}
+
+#videos #left-section #subscribe #subscribe-heading #left-subscribe-heading #left-subscribe-heading-text h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #111;
+}
+
+#videos #left-section #subscribe #subscribe-heading #left-subscribe-heading #left-subscribe-heading-text span {
+  color: var(--primary-color);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+#videos #left-section #subscribe #subscribe-heading #btn-subscribe {
+  padding: 0.4rem 1.4rem;
+  background: red;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  border-radius: 2px;
+  width: 130px;
+  height: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#videos #left-section #subscribe #subscribe-body {
+  margin-left: 63px;
+  display: flex;
+  flex-direction: column;
+}
+
+#videos #left-section #subscribe #subscribe-body p {
+  margin-top: 1.6rem;
+}
+
+#videos #left-section #subscribe #subscribe-body a {
+  margin-top: 0.8rem;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
 
 /* Main section of the page: Aside Section of the page */
 
