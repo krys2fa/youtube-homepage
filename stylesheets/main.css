@@ -26,6 +26,7 @@ body {
   background: #fff;
   position: fixed;
   top:0;
+  z-index: 999;
 }
 
 /* Header Section */
