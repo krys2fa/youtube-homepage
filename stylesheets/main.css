@@ -52,7 +52,7 @@ body {
 
 #header-middle-section input[type='text'] {
   width: 680px;
-  padding: 1.0rem 1.2rem;
+  padding: 1rem 1.2rem;
   height: 28px;
 }
 
@@ -165,7 +165,8 @@ body {
 #videos #left-section #main-video #video-footer #videos-footer-upper h4 {
   font-size: 1.5rem;
 }
-#header-left-section img
+
+#header-left-section img,
 #videos #left-section .comments .comment .comment-body span i {
   margin-right: 0.6rem;
   color: var(--primary-color);
