@@ -289,6 +289,7 @@ body {
   border: 0;
   border-bottom: 1px solid var(--primary-color);
   font-size: 0.9rem;
+  background: transparent;
 }
 
 #videos #left-section .comments #comment-heading #bottom-comment-heading input:focus {
