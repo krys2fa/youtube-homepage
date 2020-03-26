@@ -21,7 +21,6 @@ body {
 #main-header {
   width: 100%;
   margin: 0.8rem 1.2rem;
-  display: flex;
   height: 60px;
   padding: 16px;
   align-items: center;
@@ -32,7 +31,6 @@ body {
 /* Header Section */
 
 #header-left-section {
-  display: flex;
   height: 100%;
   align-items: center;
 }
@@ -50,7 +48,6 @@ body {
 }
 
 #header-middle-section {
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -80,7 +77,6 @@ body {
 }
 
 #header-right-section {
-  display: flex;
   align-items: center;
   justify-content: space-between;
   height: 100%;
@@ -107,7 +103,6 @@ body {
 }
 
 #videos {
-  display: flex;
   justify-content: space-between;
   width: 85vw;
 }
@@ -122,7 +117,6 @@ body {
 /* Main section of the page: Main video of the left section */
 
 #videos #main-video {
-  display: flex;
   flex-direction: column;
   height: 600px;
   align-items: stretch;
@@ -136,7 +130,6 @@ body {
 }
 
 #videos #left-section #main-video #video-footer {
-  display: flex;
   flex-direction: column;
   height: 60px;
   margin-top: 1.2rem;
@@ -163,7 +156,6 @@ body {
 }
 
 #videos #left-section #main-video #video-footer #videos-footer-lower {
-  display: flex;
   justify-content: space-between;
   font-size: 1rem;
   color: #444;
@@ -171,7 +163,6 @@ body {
 }
 
 #videos #left-section #main-video #video-footer #videos-footer-lower #social-icons {
-  display: flex;
   justify-content: space-between;
 }
 
@@ -197,12 +188,10 @@ body {
 /* Main section of the page: Comment Section of the left section */
 
 #videos #left-section .comments {
-  display: flex;
   flex-direction: column;
 }
 
 #videos #left-section .comments #comment-heading {
-  display: flex;
   flex-direction: column;
 }
 
@@ -211,7 +200,6 @@ body {
 }
 
 #videos #left-section .comments #comment-heading #top-comment-heading {
-  display: flex;
   align-items: center;
   padding: 0.8rem 0;
 }
@@ -275,7 +263,6 @@ body {
 }
 
 #videos #left-section .comments #comment-heading #bottom-comment-heading {
-  display: flex;
   align-items: center;
   padding: 0.8rem 0;
 }
@@ -319,7 +306,6 @@ body {
 }
 
 #videos #left-section .comments .comment {
-  display: flex;
   padding: 0.8rem 0;
 }
 
@@ -347,7 +333,6 @@ body {
 /* Main section of the page: Subscribe Section of the left section */
 
 #videos #left-section #subscribe {
-  display: flex;
   flex-direction: column;
   padding: 0.8rem 0;
   margin: 0.8rem 0;
@@ -355,12 +340,10 @@ body {
 }
 
 #videos #left-section #subscribe #subscribe-heading {
-  display: flex;
   justify-content: space-between;
 }
 
 #videos #left-section #subscribe #subscribe-heading #left-subscribe-heading {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -401,7 +384,6 @@ body {
 
 #videos #left-section #subscribe #subscribe-body {
   margin-left: 63px;
-  display: flex;
   flex-direction: column;
 }
 
@@ -426,20 +408,17 @@ body {
 /* Main section of the page: Aside Section of the page */
 
 #videos #right-section {
-  display: flex;
   flex-direction: column;
   width: 25%;
 }
 
 #videos #right-section #up-next {
-  display: flex;
   margin: 0.8rem 0;
   padding: 0.8rem 0;
   border-bottom: 1px solid #888;
 }
 
 #videos #right-section #up-next-heading {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 0.8rem;
@@ -447,7 +426,6 @@ body {
 }
 
 #videos #right-section #up-next-heading #autoplay {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -457,15 +435,39 @@ body {
 }
 
 #videos #right-section #related-videos {
-  display: flex;
   flex-direction: column;
 }
 
 #videos #right-section #related-videos .related-video-item {
-  display: flex;
   margin-bottom: 6px;
 }
 
 #videos #right-section #related-videos .related-video .related-video-image {
   position: relative;
+}
+
+#main-header,
+#header-left-section,
+#header-right-section,
+#videos,
+#videos #main-video,
+#videos #left-section #main-video #video-footer,
+#videos #left-section #main-video #video-footer #videos-footer-lower,
+#videos #left-section #main-video #video-footer #videos-footer-lower #social-icons,
+#videos #left-section .comments,
+#videos #left-section .comments #comment-heading,
+#videos #left-section .comments #comment-heading #top-comment-heading,
+#videos #left-section .comments #comment-heading #bottom-comment-heading,
+#videos #left-section .comments .comment,
+#videos #left-section #subscribe,
+#videos #left-section #subscribe #subscribe-heading,
+#videos #left-section #subscribe #subscribe-heading #left-subscribe-heading,
+#videos #left-section #subscribe #subscribe-body,
+#videos #right-section,
+#videos #right-section #up-next,
+#videos #right-section #up-next-heading,
+#videos #right-section #up-next-heading #autoplay,
+#videos #right-section #related-videos,
+#videos #right-section #related-videos .related-video-item {
+  display: flex;
 }
