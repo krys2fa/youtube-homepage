@@ -2,7 +2,7 @@
 
 > This is a clone of the Html and CSS of the YouTube home page.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/app_screenshot.png)
 
 Additional description about the project and its features.
 
@@ -13,29 +13,22 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/krys2fa/youtube-homepage/1edd7e77f5d37c42d6f7f24153f1b6fb91b62ac5/index.html)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**Click on the link above in order to see the Live Demo of the front end project.**
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+ - Web Browser
+ - Text Editor
 
 ### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+ - Download repository files
 
 
 ## Authors
@@ -48,9 +41,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@temesghentekeste](https://github.com/temesghentekeste)
+- Twitter: [@temesghentekes1](https://twitter.com/temesghentekes1)
+- Linkedin: [linkedin](https://www.linkedin.com/in/temesghen-tekeste-bahta-8b5243193/)
 
 ## 🤝 Contributing
 
