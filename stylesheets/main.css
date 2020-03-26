@@ -18,6 +18,13 @@ body {
   overflow-x: hidden;
 }
 
+#footer {
+  background-color: #fff;
+  padding: 0.8rem 2rem;
+  height: 150px;
+  margin-bottom: 100px;
+}
+
 #main-header {
   width: 100%;
   margin: 0;
@@ -39,7 +46,8 @@ body {
   color: var(--primary-color);
 }
 
-#header-left-section img {
+#header-left-section img,
+#footer-logo {
   display: inline-block;
   width: 100px;
   height: 23px;
