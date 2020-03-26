@@ -25,6 +25,35 @@ body {
   margin-bottom: 100px;
 }
 
+#footer-logo {
+  height: 23px;
+  margin-right: 1rem;
+}
+
+#bottom-footer a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+#top-footer {
+  margin: 0.8rem;
+  align-items: center;
+  height: 60px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.6rem;
+}
+
+#top-footer button {
+  height: 30px;
+  padding: 0.4rem 0.8rem;
+  margin-right: 1rem;
+  font-size: 0.7rem;
+}
+
+#top-footer button span {
+  margin: 0 0.3rem;
+}
+
 #main-header {
   width: 100%;
   margin: 0;
@@ -46,8 +75,7 @@ body {
   color: var(--primary-color);
 }
 
-#header-left-section img,
-#footer-logo {
+#header-left-section img {
   display: inline-block;
   width: 100px;
   height: 23px;
@@ -425,6 +453,7 @@ body {
   margin-bottom: 6px;
 }
 
+#top-footer,
 #main-header,
 #header-left-section,
 #header-right-section,
