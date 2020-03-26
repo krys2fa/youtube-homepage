@@ -23,7 +23,6 @@ body {
   margin: 0.8rem 1.2rem;
   height: 60px;
   padding: 16px;
-  align-items: center;
   background: #fff;
 }
 
@@ -31,7 +30,6 @@ body {
 
 #header-left-section {
   height: 100%;
-  align-items: center;
 }
 
 #header-left-section i {
@@ -47,7 +45,6 @@ body {
 }
 
 #header-middle-section {
-  align-items: center;
   justify-content: center;
 }
 
@@ -76,7 +73,6 @@ body {
 }
 
 #header-right-section {
-  align-items: center;
   height: 100%;
 }
 
@@ -192,7 +188,6 @@ body {
 }
 
 #videos #left-section .comments #comment-heading #top-comment-heading {
-  align-items: center;
   padding: 0.8rem 0;
 }
 
@@ -255,7 +250,6 @@ body {
 }
 
 #videos #left-section .comments #comment-heading #bottom-comment-heading {
-  align-items: center;
   padding: 0.8rem 0;
 }
 
@@ -331,10 +325,6 @@ body {
   border-bottom: 1px solid var(--primary-color);
 }
 
-#videos #left-section #subscribe #subscribe-heading #left-subscribe-heading {
-  align-items: center;
-}
-
 #videos #left-section #subscribe #subscribe-heading #left-subscribe-heading img {
   display: inline-block;
   width: 50px;
@@ -406,13 +396,8 @@ body {
 }
 
 #videos #right-section #up-next-heading {
-  align-items: center;
   font-size: 0.8rem;
   color: var(--primary-color);
-}
-
-#videos #right-section #up-next-heading #autoplay {
-  align-items: center;
 }
 
 #videos #right-section #related-videos {
@@ -464,4 +449,16 @@ body {
 #videos #right-section #up-next #up-next-video,
 #videos #right-section #related-videos .related-video .related-video-image {
   position: relative;
+}
+
+#main-header,
+#header-left-section,
+#header-middle-section,
+#header-right-section,
+#videos #left-section .comments #comment-heading #top-comment-heading,
+#videos #left-section .comments #comment-heading #bottom-comment-heading,
+#videos #left-section #subscribe #subscribe-heading #left-subscribe-heading,
+#videos #right-section #up-next-heading,
+#videos #right-section #up-next-heading #autoplay {
+  align-items: center;
 }
