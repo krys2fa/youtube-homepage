@@ -13,7 +13,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/krys2fa/youtube-homepage/1edd7e77f5d37c42d6f7f24153f1b6fb91b62ac5/index.html)
+[Live Demo Link](https://rawcdn.githack.com/krys2fa/youtube-homepage/d467983fca3a3f1b8740372f611983749865b349/index.html)
 
 
 ## Getting Started
