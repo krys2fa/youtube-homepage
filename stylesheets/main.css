@@ -34,7 +34,6 @@ body {
 
 #header-left-section i {
   color: var(--primary-color);
-  font-size: 1.2rem;
 }
 
 #header-left-section img {
@@ -86,7 +85,6 @@ body {
 #header-right-section i {
   margin: 0 1.5rem;
   color: var(--primary-color);
-  font-size: 1.2rem;
 }
 
 /* Main section of the page */
@@ -143,7 +141,6 @@ body {
 }
 
 #videos #left-section #main-video #video-footer #videos-footer-upper h4 {
-  font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 1.2rem;
 }
@@ -157,6 +154,12 @@ body {
 #videos #left-section #main-video #video-footer #videos-footer-lower #social-icons .likeDislike {
   border-bottom: 2px solid #444;
   padding-bottom: 14px;
+}
+
+#header-left-section i,
+#header-right-section i,
+#videos #left-section #main-video #video-footer #videos-footer-upper h4 {
+  font-size: 1.2rem;
 }
 
 #videos #left-section .comments .comment .comment-body span i {
