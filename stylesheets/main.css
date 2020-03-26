@@ -20,10 +20,12 @@ body {
 
 #main-header {
   width: 100%;
-  margin: 0.8rem 1.2rem;
+  margin: 0;
   height: 60px;
   padding: 16px;
   background: #fff;
+  position: fixed;
+  top:0;
 }
 
 /* Header Section */
