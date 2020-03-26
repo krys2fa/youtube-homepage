@@ -21,7 +21,7 @@ body {
 #footer {
   background-color: #fff;
   padding: 0.8rem 2rem;
-  height: 150px;
+  height: 180px;
   margin-bottom: 100px;
 }
 
@@ -32,7 +32,26 @@ body {
 
 #bottom-footer a {
   text-decoration: none;
+  margin-right: 1rem;
+}
+
+#bottom-footer #upper-footer-links {
+  margin-bottom: 0.6rem;
+}
+
+#bottom-footer #upper-footer-links a {
+  font-size: 0.9rem;
+  color: #000;
+}
+
+#bottom-footer #lower-footer-links a {
   color: var(--primary-color);
+  font-size: 0.8rem;
+}
+
+#bottom-footer {
+  margin: 0.8rem;
+  flex-direction: column;
 }
 
 #top-footer {
@@ -48,6 +67,11 @@ body {
   padding: 0.4rem 0.8rem;
   margin-right: 1rem;
   font-size: 0.7rem;
+  background: #f4f4f4;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #ddd;
 }
 
 #top-footer button span {
@@ -263,7 +287,7 @@ body {
 #videos #right-section #related-videos .related-video .related-video-image span {
   position: absolute;
   color: #fff;
-  bottom: 17px;
+  bottom: 35px;
   right: 16px;
   font-weight: 600;
   background: #000;
@@ -273,7 +297,7 @@ body {
 #videos #right-section #up-next #up-next-video span {
   position: absolute;
   color: #fff;
-  bottom: 8px;
+  bottom: 18px;
   right: 16px;
   font-weight: 600;
   background: #000;
@@ -453,6 +477,7 @@ body {
   margin-bottom: 6px;
 }
 
+#bottom-footer,
 #top-footer,
 #main-header,
 #header-left-section,
