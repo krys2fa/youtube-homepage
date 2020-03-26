@@ -134,7 +134,7 @@ body {
   border: 0;
 }
 
-#videos #left-section #main-video footer {
+#videos #left-section #main-video #video-footer {
   display: flex;
   flex-direction: column;
   height: 60px;
@@ -155,13 +155,13 @@ body {
   margin-bottom: 6px;
 }
 
-#videos #left-section #main-video footer #videos-footer-upper h4 {
+#videos #left-section #main-video #video-footer #videos-footer-upper h4 {
   font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 1.2rem;
 }
 
-#videos #left-section #main-video footer #videos-footer-lower {
+#videos #left-section #main-video #video-footer #videos-footer-lower {
   display: flex;
   justify-content: space-between;
   font-size: 1rem;
@@ -169,12 +169,12 @@ body {
   font-weight: 600px;
 }
 
-#videos #left-section #main-video footer #videos-footer-lower #social-icons {
+#videos #left-section #main-video #video-footer #videos-footer-lower #social-icons {
   display: flex;
   justify-content: space-between;
 }
 
-#videos #left-section #main-video footer #videos-footer-lower #social-icons .likeDislike {
+#videos #left-section #main-video #video-footer #videos-footer-lower #social-icons .likeDislike {
   border-bottom: 2px solid #444;
   padding-bottom: 14px;
 }
@@ -189,7 +189,7 @@ body {
   color: #00f;
 }
 
-#videos #left-section #main-video footer #videos-footer-lower #social-icons i {
+#videos #left-section #main-video #video-footer #videos-footer-lower #social-icons i {
   margin-right: 0.4rem;
 }
 
@@ -265,11 +265,11 @@ body {
   font-size: 1rem;
 }
 
-#videos #left-section #main-video footer #videos-footer-lower #video-views span {
+#videos #left-section #main-video #video-footer #videos-footer-lower #video-views span {
   margin-right: 0.2rem;
 }
 
-#videos #left-section #main-video footer #videos-footer-lower #social-icons span {
+#videos #left-section #main-video #video-footer #videos-footer-lower #social-icons span {
   margin-right: 0.8rem;
 }
 
