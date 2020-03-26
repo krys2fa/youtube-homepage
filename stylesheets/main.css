@@ -15,7 +15,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background: #f4f4f4;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 #main-header {
