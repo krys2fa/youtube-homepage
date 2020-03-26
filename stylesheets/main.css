@@ -18,6 +18,10 @@ body {
   overflow-x: hidden;
 }
 
+.space-to-right {
+  margin-right: 0.8rem;
+}
+
 #footer {
   background-color: #fff;
   padding: 0.8rem 2rem;
@@ -74,10 +78,6 @@ body {
   border: 1px solid #ddd;
 }
 
-.comment-body span {
-  margin-right: 0.8rem;
-}
-
 .related-video-image span {
   position: absolute;
   color: #fff;
@@ -92,10 +92,6 @@ body {
   color: var(--primary-color);
   font-size: 0.8rem;
   font-weight: 500;
-}
-
-#social-icons span {
-  margin-right: 0.8rem;
 }
 
 #video-views span {
@@ -142,7 +138,6 @@ body {
   display: inline-block;
   width: 180px;
   height: 100px;
-  margin-right: 0.8rem;
 }
 
 #header-left-section img,
@@ -192,6 +187,11 @@ body {
 
 #header-right-section {
   height: 100%;
+}
+
+.related-video-text h4 {
+  font-size: 0.8rem;
+  margin-bottom: 6px;
 }
 
 #header-right-section img {
@@ -244,15 +244,6 @@ body {
   flex-direction: column;
   height: 60px;
   margin-top: 1.2rem;
-}
-
-.related-video-text h4 {
-  font-size: 0.8rem;
-  margin-bottom: 6px;
-}
-
-#autoplay h4 {
-  margin-right: 0.8rem;
 }
 
 #up-next-text h4 {
@@ -338,7 +329,6 @@ body {
   display: inline-block;
   width: 180px;
   height: 100px;
-  margin-right: 0.8rem;
 }
 
 #bottom-comment-heading img {
@@ -367,12 +357,10 @@ body {
 }
 
 .comment-img {
-  margin-right: 0.8rem;
   display: inline-block;
 }
 
 .username {
-  margin-right: 0.8rem;
   display: inline-block;
   text-decoration: none;
   font-weight: 600;
@@ -380,7 +368,6 @@ body {
 }
 
 .year {
-  margin-right: 0.8rem;
   display: inline-block;
   text-decoration: none;
   font-weight: 500;
