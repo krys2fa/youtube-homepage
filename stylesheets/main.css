@@ -415,20 +415,12 @@ body {
   align-items: center;
 }
 
-#videos #right-section #up-next #up-next-video {
-  position: relative;
-}
-
 #videos #right-section #related-videos {
   flex-direction: column;
 }
 
 #videos #right-section #related-videos .related-video-item {
   margin-bottom: 6px;
-}
-
-#videos #right-section #related-videos .related-video .related-video-image {
-  position: relative;
 }
 
 #main-header,
@@ -467,4 +459,9 @@ body {
 #videos #right-section #up-next-heading,
 #videos #right-section #up-next-heading #autoplay {
   justify-content: space-between;
+}
+
+#videos #right-section #up-next #up-next-video,
+#videos #right-section #related-videos .related-video .related-video-image {
+  position: relative;
 }
