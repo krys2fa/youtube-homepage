@@ -54,6 +54,12 @@ a {
   margin-left: 2.5rem;
 }
 
+.text-upper {
+  text-transform: uppercase;
+}
+
+/* Utility Classes: Font Sizes */
+
 .font-1 {
   font-size: 1rem;
 }
@@ -62,8 +68,28 @@ a {
   font-size: 1.5rem;
 }
 
+.font-0-8 {
+  font-size: 0.8rem;
+}
+
+/* Utility Classes: Font Weights */
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+/* Utility Classes: Margins */
+
 .m-h-1 {
   margin: 0 1.5rem;
+}
+
+.m-l-4 {
+  margin-left: 4rem;
 }
 
 .m-r-0-2 {
@@ -72,6 +98,24 @@ a {
 
 .m-r-0-8 {
   margin-right: 0.8rem;
+}
+
+.m-r-1-2 {
+  margin-right: 1.2rem;
+}
+
+.m-t-1-6 {
+  margin: 1.6rem 0;
+}
+
+.m-t-0-8 {
+  margin: 0.8rem 0;
+}
+
+/* Utility Classes: Paddings */
+
+.p-t-0-8 {
+  padding: 0.8rem 0;
 }
 
 .inline-block {
@@ -94,6 +138,22 @@ a {
 
 .border-primary {
   border-bottom: 1px solid var(--primary-color);
+}
+
+/* Utility Classes: Buttons */
+.btn {
+  padding: 0.4rem 1.4rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 2px;
+  width: 130px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.btn-red {
+  background: red;
+  color: #fff;
 }
 
 /* Header section */
@@ -160,13 +220,11 @@ iframe {
 }
 
 .videos-footer-upper {
-  font-weight: 500;
   margin-bottom: 1.2rem;
 }
 
 .videos-footer-lower {
   color: #444;
-  font-weight: 600px;
 }
 
 .social-icons i {
@@ -176,4 +234,8 @@ iframe {
 .like-dislike {
   border-bottom: 2px solid #444;
   padding-bottom: 14px;
+}
+
+#left-subscribe-heading-text h4 {
+  color: #111;
 }
