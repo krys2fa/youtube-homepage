@@ -4,6 +4,7 @@
 
 :root {
   --primary-color: #777;
+  --black-color: #000;
 }
 
 /* Reseting our page */
@@ -60,15 +61,15 @@ a {
 
 /* Utility Classes: Font Sizes */
 
-.font-1 {
+.fs-1 {
   font-size: 1rem;
 }
 
-.font-1-5 {
+.fs-1-5 {
   font-size: 1.5rem;
 }
 
-.font-0-8 {
+.fs-0-8 {
   font-size: 0.8rem;
 }
 
@@ -104,6 +105,10 @@ a {
   margin-right: 1.2rem;
 }
 
+.m-r-1-6 {
+  margin: 0 1.6rem;
+}
+
 .m-t-1-6 {
   margin: 1.6rem 0;
 }
@@ -113,6 +118,10 @@ a {
 }
 
 /* Utility Classes: Paddings */
+
+.p-t-1 {
+  padding: 1rem 0;
+}
 
 .p-t-0-8 {
   padding: 0.8rem 0;
@@ -129,6 +138,10 @@ a {
 
 .primary-color {
   color: var(--primary-color);
+}
+
+.black-color {
+  color: var(--black-color);
 }
 
 .container {
@@ -238,4 +251,18 @@ iframe {
 
 #left-subscribe-heading-text h4 {
   color: #111;
+}
+
+#bottom-comment-heading input {
+  flex-grow: 1;
+  padding: 0.4rem 1.2rem;
+  border: 0;
+  border-bottom: 1px solid var(--primary-color);
+  font-size: 0.9rem;
+  background: transparent;
+}
+
+#bottom-comment-heading input:focus {
+  outline: none;
+  border-bottom: 1px solid #000;
 }

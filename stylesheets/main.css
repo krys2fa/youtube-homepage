@@ -18,6 +18,10 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 .space-to-right {
   margin-right: 0.8rem;
 }
@@ -117,16 +121,7 @@ body {
   margin: 0 0.3rem;
 }
 
-#main-header {
-  width: 100%;
-  margin: 0;
-  height: 60px;
-  padding: 2rem;
-  background: #fff;
-  position: fixed;
-  top: 0;
-  z-index: 999;
-}
+
 
 /* Header Section */
 
