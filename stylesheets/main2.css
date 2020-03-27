@@ -109,12 +109,20 @@ a {
   margin: 0 1.6rem;
 }
 
+.m-r-2 {
+  margin: 0 2rem;
+}
+
 .m-t-1-6 {
   margin: 1.6rem 0;
 }
 
 .m-t-0-8 {
   margin: 0.8rem 0;
+}
+
+.m-b-0-5 {
+  margin-bottom: 0.5rem;
 }
 
 /* Utility Classes: Paddings */
@@ -169,6 +177,22 @@ a {
   color: #fff;
 }
 
+/* Postions */
+
+.relative {
+  position: relative;
+}
+
+.video-time {
+  position: absolute;
+  color: #fff;
+  bottom: 10px;
+  right: 16px;
+  font-weight: 600;
+  background: #000;
+  padding: 0.3rem 0.4rem;
+}
+
 /* Header section */
 
 #main-header {
@@ -212,6 +236,12 @@ a {
 #videos {
   width: 85vw;
   margin-top: 90px;
+}
+
+/* Main section: right section */
+
+#left-section {
+  width: 75%;
 }
 
 /* Main section: Main video section */
@@ -266,3 +296,19 @@ iframe {
   outline: none;
   border-bottom: 1px solid #000;
 }
+
+/* Main Section: Aside section */
+
+#right-section {
+  width: 25%;
+}
+
+#up-next-video img {
+  width: 180px;
+  height: 100px;
+}
+
+}
+
+
+

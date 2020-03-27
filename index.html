@@ -36,7 +36,7 @@
 
     <main class="container flex-h" id="videos">
 
-      <div id="left-section" class="flex-v">
+      <div id="left-section" class="flex-v m-r-2">
 
         <section id="main-video" class="flex-v border-primary">
           <iframe 
@@ -74,7 +74,7 @@
 
             </div>
           </div>
-        </section>
+        </section> <!-- End of Main Video Section -->
 
         <section id="subscribe" class="flex-v border-primary p-t-0-8 m-t-0-8">
 
@@ -109,7 +109,7 @@
             </p>
             <a class="m-t-0-8 primary-color" href="#">SHOW MORE</a>
           </div>
-        </section>
+        </section> <!-- End of Subscribe Section -->
 
         <section id="comments" class="flex-v">
           <header id="comment-header" class="flex-v">
@@ -214,32 +214,33 @@
             <!-- End of Comment 3 -->
           </div>
 
-        </section>
+        </section> <!-- Comments of Left Section -->
 
-      <aside id="right-section">
-        <div id="up-next-heading">
+       </div> <!-- End of Left Section -->
+      <aside id="right-section" class="flex-v align-center">
+        <div id="up-next-heading" class="flex-h space-between align-center fs-0-8 primary-color">
           <h4>UP NEXT</h4>
-          <div id="autoplay">
-            <h4 class="space-to-right">AUTOPLAY</h4>
+          <div id="autoplay" class="flex-h space-between align-center">
+            <h4 class="m-r-0-8">AUTOPLAY</h4>
             <i class="fas fa-toggle-on"></i>
           </div>
         </div>
-        <section id="up-next" class="sidebar-card">
-          <div id="up-next-video" class="sidebar-img">
-            <img class="space-to-right" src="images/car-1.jpg" alt="Car" />
-            <span>10:00</span>
+        <div id="up-next" class="flex-h m-t-0-8 p-t-0-8 border-primary">
+          <div id="up-next-video" class="relative">
+            <img class="m-r-0-8 inline-block" src="images/car-1.jpg" alt="Car" />
+            <span class="video-time">10:00</span>
           </div>
 
           <div id="up-next-text">
             <a href="#">
-              <h4>
+              <h4 class="m-b-0-5 fs-0-8">
                 Subaru Symmetrical AWD vs. Honda, Toyota, and Volkswagen
               </h4>
               <p>SubScribe</p>
               <p>Recommended for you</p>
             </a>
           </div>
-        </section>
+        </div>
 
         <section id="related-videos" class="sidebar-card">
           <a
@@ -403,10 +404,7 @@
           </a>
 
         </section>
-      </aside>
-
-    </div>
-
+      </aside> <!-- End of the Aside section (right section) -->
     </main>
 
     <footer id="footer">
