@@ -49,14 +49,30 @@ a {
 }
 
 .logo {
-  display: inline-block;
   width: 100px;
   height: 23px;
   margin-left: 2.5rem;
 }
 
-.font-m-1 {
+.font-1-5 {
   font-size: 1.5rem;
+}
+
+.m-h-1 {
+  margin: 0 1.5rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.avatar {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.primary-color {
+  color: var(--primary-color);
 }
 
 /* Header section */
@@ -91,4 +107,8 @@ a {
 #header-middle-section button:hover {
   background: #eee;
   cursor: pointer;
+}
+
+#header-right-section {
+  height: 100%;
 }
