@@ -33,16 +33,19 @@
         />
       </div>
     </header>
+
     <main class="container flex-h" id="videos">
+
       <div id="left-section" class="flex-v">
-        <div id="main-video" class="flex-v border-primary">
-            <iframe 
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/BDtGXMhiooM"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+
+        <section id="main-video" class="flex-v border-primary">
+          <iframe 
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/BDtGXMhiooM"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
 
           <div id="video-footer" class="flex-v">
             <div class="videos-footer-upper fs-1-5 fw-500">
@@ -62,15 +65,18 @@
                   <i class="fas fa-thumbs-down"></i> <span class="m-r-0-8">58</span>
                 </div>
 
-                <i class="fas fa-share"></i> <span class="m-r-0-8">SHARE</span>
-                <i class="fas fa-file-download"></i><span class="m-r-0-8">SAVE</span>
+                <i class="fas fa-share"></i>
+                <span class="m-r-0-8">SHARE</span>
+                <i class="fas fa-file-download"></i>
+                <span class="m-r-0-8">SAVE</span>
                 <i class="fas fa-ellipsis-h"></i>
               </div>
+
             </div>
           </div>
-        </div>
+        </section>
 
-        <section class="flex-v border-primary p-t-0-8 m-t-0-8">
+        <section id="subscribe" class="flex-v border-primary p-t-0-8 m-t-0-8">
 
           <div class="flex-h space-between">
             <div id="left-subscribe-heading" class="flex-h space-between align-center">
@@ -105,8 +111,8 @@
           </div>
         </section>
 
-        <div class="flex-v">
-          <header class="flex-v">
+        <section id="comments" class="flex-v">
+          <header id="comment-header" class="flex-v">
             <div class="flex-h align-center m-r-1-6 p-t-0-8 primary-color">
               <p class="m-r-1-6 fw-500 fs-1">16 Comments</p>
               <span class="fs-1"><i class="fas fa-sort-amount-down"></i> SORT BY</span>
@@ -128,77 +134,87 @@
             </div>
           </header>
 
-          <div class="flex-h p-t-0-8">
-            <div class="inline-block m-r-0-8">
-              <img class="avatar" 
-                src="https://yt3.ggpht.com/a/AATXAJwaHoqo8V8plU1Gh1ZEmf1BmaoHJNx7y4Uz=s48-c-k-c0xffffffff-no-rj-mo"
-                alt=""
-              />
+          
+          <div id="comments-body">
+
+            <!-- Comment 1 -->
+            <div class="comment flex-h p-t-0-8">
+              <div class="inline-block m-r-0-8">
+                <img class="avatar" 
+                  src="https://yt3.ggpht.com/a/AATXAJwaHoqo8V8plU1Gh1ZEmf1BmaoHJNx7y4Uz=s48-c-k-c0xffffffff-no-rj-mo"
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <a href="#" class="m-r-0-8 inline-block fw-600 black-color">Umer Awan</a>
+                <a href="#" class="m-r-0-8 inline-block fw-500 primary-color">1 year ago</a>
+                <p class="p-t-1">
+                  It is one of my favorite car I like this car and I got too much
+                  satisfied by watching this video because I was in the mood of
+                  buying this car. Now in few days I will have my Toyota corolla
+                  2007 1.6 xli thank you soo much brother for educating me about
+                  this car.
+                </p>
+                <span class="m-r-0-8"><i class="fas fa-thumbs-up m-r-0-8"></i> 3 </span>
+
+                <span class="reply m-r-0-8"><i class="fas fa-thumbs-down m-r-0-8"></i> REPLY</span>
+              </div>
+
             </div>
 
-            <div>
-              <a href="#" class="m-r-0-8 inline-block fw-600 black-color">Umer Awan</a>
-              <a href="#" class="m-r-0-8 inline-block fw-500 primary-color">1 year ago</a>
-              <p class="p-t-1">
-                It is one of my favorite car I like this car and I got too much
-                satisfied by watching this video because I was in the mood of
-                buying this car. Now in few days I will have my Toyota corolla
-                2007 1.6 xli thank you soo much brother for educating me about
-                this car.
-              </p>
-              <span class="m-r-0-8"><i class="fas fa-thumbs-up m-r-0-8"></i> 3 </span>
+            <!-- End of Comment 1 -->
 
-              <span class="reply m-r-0-8"
-                ><i class="fas fa-thumbs-down m-r-0-8"></i> REPLY</span
-              >
+            <!-- Comment 2 -->
+            <div class="comment flex-h p-t-0-8">
+              <div class="inline-block m-r-0-8">
+                <img class="avatar" 
+                  src="https://yt3.ggpht.com/a/AATXAJwcOfToFXlvkgj5nxpQ9jFnlnJ_y7jpfHN30g=s48-c-k-c0xffffffff-no-rj-mo"
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <a href="#" class="m-r-0-8 inline-block fw-600 black-color">Combine</a>
+                <a href="#" class="m-r-0-8 inline-block fw-500 primary-color">1 year ago</a>
+                <p class="p-t-1">
+                  Very nice and reliable car!
+                </p>
+                <span class="m-r-0-8"><i class="fas fa-thumbs-up m-r-0-8"></i> 16 </span>
+
+                <span class="reply m-r-0-8"><i class="fas fa-thumbs-down m-r-0-8"></i> REPLY</span>
+              </div>
+
             </div>
+
+            <!-- End of Comment 2 -->
+
+            <!-- Comment 3 -->
+            <div class="comment flex-h p-t-0-8">
+              <div class="inline-block m-r-0-8">
+                <img class="avatar" 
+                  src="https://yt3.ggpht.com/a/AATXAJxf0YKVPgz1v9t7kk28MiSXsnAO03NkHo86dg=s48-c-k-c0xffffffff-no-rj-mo"
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <a href="#" class="m-r-0-8 inline-block fw-600 black-color">Steven Schwamm</a>
+                <a href="#" class="m-r-0-8 inline-block fw-500 primary-color">1 year ago</a>
+                <p class="p-t-1">
+                  Very nice car my nephew is looking at one
+                </p>
+                <span class="m-r-0-8"><i class="fas fa-thumbs-up m-r-0-8"></i> 2 </span>
+
+                <span class="reply m-r-0-8"><i class="fas fa-thumbs-down m-r-0-8"></i> REPLY</span>
+              </div>
+
+            </div>
+
+            <!-- End of Comment 3 -->
           </div>
 
-          <div class="comment">
-            <div class="comment-img space-to-right">
-              <img class="comment-image"
-                src="https://yt3.ggpht.com/a/AATXAJwcOfToFXlvkgj5nxpQ9jFnlnJ_y7jpfHN30g=s48-c-k-c0xffffffff-no-rj-mo"
-                alt=""
-              />
-            </div>
-
-            <div class="comment-body">
-              <a href="#" class="username space-to-right">Combine</a>
-              <a href="#" class="year space-to-right">1 year ago</a>
-              <p>
-                Very nice and reliable car!
-              </p>
-              <span class="space-to-right"><i class="fas fa-thumbs-up"></i> 16 </span>
-
-              <span class="reply space-to-right"
-                ><i class="fas fa-thumbs-down"></i> REPLY</span
-              >
-            </div>
-          </div>
-
-          <div class="comment">
-            <div class="comment-img space-to-right">
-              <img class="comment-image"
-                src="https://yt3.ggpht.com/a/AATXAJxf0YKVPgz1v9t7kk28MiSXsnAO03NkHo86dg=s48-c-k-c0xffffffff-no-rj-mo"
-                alt=""
-              />
-            </div>
-
-            <div class="comment-body">
-              <a href="#" class="username space-to-right">Steven Schwamm</a>
-              <a href="#" class="year space-to-right">1 year ago</a>
-              <p>
-                Very nice car my nephew is looking at one
-              </p>
-              <span class="space-to-right"><i class="fas fa-thumbs-up"></i> 2 </span>
-
-              <span class="reply space-to-right"
-                ><i class="fas fa-thumbs-down"></i> REPLY</span
-              >
-            </div>
-          </div>
-        </div>
-      </div>
+        </section>
 
       <aside id="right-section">
         <div id="up-next-heading">
@@ -388,6 +404,9 @@
 
         </section>
       </aside>
+
+    </div>
+
     </main>
 
     <footer id="footer">
