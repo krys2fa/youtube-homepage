@@ -150,13 +150,6 @@ body {
   color: var(--primary-color);
 }
 
-#header-left-section img {
-  display: inline-block;
-  width: 100px;
-  height: 23px;
-  margin-left: 2.5rem;
-}
-
 #header-middle-section {
   justify-content: center;
 }
