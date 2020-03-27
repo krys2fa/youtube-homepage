@@ -33,39 +33,37 @@
         />
       </div>
     </header>
-    <main class="container" id="videos">
-      <div id="left-section">
-        <div id="main-video">
-          <div id="video">
-            <iframe
+    <main class="container flex-h" id="videos">
+      <div id="left-section" class="flex-v">
+        <div id="main-video" class="flex-v border-primary">
+            <iframe 
               width="560"
               height="315"
               src="https://www.youtube.com/embed/BDtGXMhiooM"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-          </div>
 
-          <div id="video-footer">
-            <section id="videos-footer-upper">
+          <div id="video-footer" class="flex-v">
+            <div class="videos-footer-upper font-1-5">
               <h4>2006 Toyota Corolla LE Review, Start Up and Walkaround</h4>
-            </section>
+            </div>
 
-            <div id="videos-footer-lower">
-              <div id="video-views">
-                <span id="views">168,556 views</span>
-                <span>•</span>
-                <span id="date">19 May 2014</span>
+            <div class="videos-footer-lower flex-h space-between font-1">
+              <div>
+                <span class="m-r-0-2">168,556 views</span>
+                <span class="m-r-0-2">•</span>
+                <span class="m-r-0-2">19 May 2014</span>
               </div>
 
-              <div id="social-icons">
-                <div class="likeDislike">
-                  <i class="fas fa-thumbs-up"></i> <span class="space-to-right">729</span>
-                  <i class="fas fa-thumbs-down"></i> <span class="space-to-right">58</span>
+              <div class="social-icons flex-h space-between">
+                <div class="like-dislike">
+                  <i class="fas fa-thumbs-up"></i> <span class="m-r-0-8">729</span>
+                  <i class="fas fa-thumbs-down"></i> <span class="m-r-0-8">58</span>
                 </div>
 
-                <i class="fas fa-share"></i> <span class="space-to-right">SHARE</span>
-                <i class="fas fa-file-download"></i><span class="space-to-right">SAVE</span>
+                <i class="fas fa-share"></i> <span class="m-r-0-8">SHARE</span>
+                <i class="fas fa-file-download"></i><span class="m-r-0-8">SAVE</span>
                 <i class="fas fa-ellipsis-h"></i>
               </div>
             </div>
@@ -218,7 +216,7 @@
           </div>
         </section>
 
-        <section id="related-videos" class="sidebar-card>
+        <section id="related-videos" class="sidebar-card">
           <a
             class="related-video"
             href="https://www.youtube.com/watch?v=tlWS4NrRn6o"
