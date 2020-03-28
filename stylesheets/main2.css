@@ -186,11 +186,12 @@ a {
 .video-time {
   position: absolute;
   color: #fff;
-  bottom: 10px;
+  bottom: 20px;
   right: 16px;
   font-weight: 600;
   background: #000;
   padding: 0.3rem 0.4rem;
+  font-size: x-small;
 }
 
 /* Header section */
