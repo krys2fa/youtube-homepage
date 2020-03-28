@@ -303,7 +303,7 @@ iframe {
   width: 25%;
 }
 
-#up-next-video img {
-  width: 180px;
-  height: 100px;
+.video-thumbnail img {
+  width: 168px;
+  height: px;
 }
