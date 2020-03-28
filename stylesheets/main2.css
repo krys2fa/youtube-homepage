@@ -125,6 +125,14 @@ a {
   margin-bottom: 0.5rem;
 }
 
+.m-b-4 {
+  margin-bottom: 4rem;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
 /* Utility Classes: Paddings */
 
 .p-t-1 {
@@ -133,6 +141,10 @@ a {
 
 .p-t-0-8 {
   padding: 0.8rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
 }
 
 .inline-block {
@@ -307,4 +319,46 @@ iframe {
 .video-thumbnail img {
   width: 168px;
   height: px;
+}
+
+
+/* Footer section */
+
+#footer {
+  padding: 0.8rem 2rem;
+  height: 225px;
+}
+
+#top-footer {
+  border-bottom: 1px solid var(--primary-color);
+}
+
+#top-footer img {
+  margin-left: 0;
+}
+
+#top-footer button {
+  height: 30px;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.7rem;
+  background: #f4f4f4;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #ddd;
+  margin: 0 1rem;
+}
+
+#bottom-footer a {
+  margin-right: 1rem;
+}
+
+#upper-footer-links a {
+  font-size: 1rem;
+  color: #000;
+}
+
+#lower-footer-links a {
+  font-size: 1rem;
+  color: #444;
 }
